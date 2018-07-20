@@ -1,0 +1,88 @@
+.container-fluid .hung {
+  height: auto;
+  background-image: url("img/hung012.jpg");
+  background-size: 100%;
+  position: relative;
+}
+.container-fluid .hung .khunghinh {
+  float: left;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(#ff0000 60%, #008000 20%);
+  opacity: 0.5;
+}
+.container-fluid .hung .h4 .col-lg-6 h3 {
+  margin-top: 130px;
+  font-family: Verdana;
+  text-align: center;
+}
+.container-fluid .hung .h4 .col-lg-6 h4 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Georgia;
+  text-transform: uppercase;
+}
+.container-fluid .hung .h4 .col-lg-6 h6 {
+  text-align: center;
+  font-family: Georgia;
+}
+.container-fluid .hung2 .gtco-container .animate-box .gtco-heading {
+  margin-top: 50px;
+}
+.container-fluid .hung2 .gtco-container .animate-box .gtco-heading h2 {
+  text-transform: uppercase;
+  font-family: Georgia;
+}
+.container-fluid .hung2 .gtco-container .animate-box .col-md-1 {
+  margin-top: 45px;
+}
+@media screen and (max-width: 989px) {
+  .container-fluid .hung2 .gtco-container .animate-box .col-md-1 {
+    display: none;
+  }
+}
+.container-fluid .hung2 .gtco-container .row .animate-box {
+  margin-top: 35px;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box:hover {
+  box-shadow: 5px 0px 40px rgba(223, 0, 41, 0.2);
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff {
+  margin: 0 auto;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff img {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff img:hover {
+  box-shadow: 5px 0px 40px rgba(0, 127, 84, 0.2);
+  transform: scale(1.2);
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff h3 {
+  text-align: center;
+  font-family: Georgia;
+  margin-top: 30px;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff h5 {
+  text-align: center;
+  font-family: cursive;
+  color: gray;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff .icon {
+  margin: 0 auto;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff .icon a {
+  margin-left: 15px;
+}
+.container-fluid .hung2 .gtco-container .row .animate-box .gtco-staff .btn-primary {
+  width: 60%;
+  text-transform: uppercase;
+  background: #CD1076;
+  margin: 0 auto;
+  font-family: Georgia;
+}
