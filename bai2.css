@@ -1,0 +1,65 @@
+.container-fluid .phong {
+  margin: 0 auto;
+  height: 320px;
+  background-image: url(anhphong/hoa.jpg);
+  background-size: 100% 100%;
+  clear: both;
+}
+@media screen and (max-width: 767px) {
+  .container-fluid .phong {
+    height: auto;
+  }
+}
+.container-fluid .phong .pro {
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(153, 50, 204, 0.5)), color-stop(rgba(255, 20, 147, 0.5)), to(rgba(240, 128, 128, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(153, 50, 204, 0.5), rgba(255, 20, 147, 0.5), rgba(240, 128, 128, 0.5));
+  background: -o-linear-gradient(top, rgba(153, 50, 204, 0.5), rgba(255, 20, 147, 0.5), rgba(240, 128, 128, 0.5));
+  background: linear-gradient(to bottom, rgba(153, 50, 204, 0.5), rgba(255, 20, 147, 0.5), rgba(240, 128, 128, 0.5));
+}
+.container-fluid .phong .pro .box1 {
+  float: left;
+}
+.container-fluid .phong .pro .box1 h5 {
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+}
+.container-fluid .phong .pro .box1 .card-deck {
+  margin-top: 4%;
+}
+.container-fluid .phong .pro .box1 .card-deck a {
+  text-decoration: none;
+}
+.container-fluid .phong .pro .box1 .card-deck a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.container-fluid .phong .pro .box1 .card-deck a .card-img-top {
+  width: 100%;
+  height: 100%;
+}
+.container-fluid .phong .pro .box2 {
+  float: left;
+}
+.container-fluid .phong .pro .box2 h5 {
+  text-align: center;
+  margin-top: 12%;
+  color: white;
+}
+.container-fluid .phong .pro .box2 p {
+  text-align: center;
+  margin-top: 6%;
+  color: white;
+  font-family: VnAristote;
+}
+.container-fluid .phong .pro .box2 .carousel .carousel-inner {
+  width: 15%;
+  margin: 0 auto;
+}
+.container-fluid .phong .pro .box2 .carousel .carousel-inner .carousel-item {
+  width: 100%;
+}
+
+/*# sourceMappingURL=bai2.css.map */
