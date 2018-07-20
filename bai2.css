@@ -191,7 +191,7 @@
 }
 .container-fluid .hau {
   margin-bottom: 50px;
-  height: 10000px;
+  height: auto;
 }
 .container-fluid .hau .hau-1 {
   height: 100px;
