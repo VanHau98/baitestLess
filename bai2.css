@@ -97,95 +97,96 @@
     margin-right: 0;
   }
 }
-.container-fluid .son {
+.container-fluid .son111 {
+  background: pink;
+}
+.container-fluid .son111 .son {
   margin-top: 1%;
   height: auto;
-  background-image: url(img/son1.jpg);
-  background-size: 100%;
 }
 @media screen and (max-width: 767px) {
-  .container-fluid .son {
+  .container-fluid .son111 .son {
     height: 60%;
     background-size: 100%;
     background: none;
   }
 }
-.container-fluid .son .v1 {
+.container-fluid .son111 .son .v1 {
   height: 330px;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 {
+  .container-fluid .son111 .son .v1 {
     height: 50%;
   }
 }
-.container-fluid .son .v1 img {
+.container-fluid .son111 .son .v1 img {
   width: 20%;
   height: 20%;
   margin: 0 auto;
   margin-top: 10px;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 img {
+  .container-fluid .son111 .son .v1 img {
     width: 10%;
     height: 10%;
   }
 }
-.container-fluid .son .v1 h5 {
+.container-fluid .son111 .son .v1 h5 {
   text-align: center;
   color: white;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 h5 {
+  .container-fluid .son111 .son .v1 h5 {
     font-size: 80%;
   }
 }
-.container-fluid .son .v1 p {
+.container-fluid .son111 .son .v1 p {
   text-align: center;
   color: white;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 p {
+  .container-fluid .son111 .son .v1 p {
     font-size: 60%;
   }
 }
-.container-fluid .son .v1 a {
+.container-fluid .son111 .son .v1 a {
   margin-left: 30%;
   color: white;
   text-decoration: none;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 a {
+  .container-fluid .son111 .son .v1 a {
     margin-left: 20%;
   }
 }
-.container-fluid .son .v1 .card {
+.container-fluid .son111 .son .v1 .card {
   border: none;
   margin: 0;
 }
-.container-fluid .son .v1 .card .overlay {
+.container-fluid .son111 .son .v1 .card .overlay {
   width: 90%;
   height: 95%;
   background: #e80b93;
   margin: 1% 0% 1% 0%;
   float: left;
 }
-.container-fluid .son .v1 .card .overlay:hover {
+.container-fluid .son111 .son .v1 .card .overlay:hover {
   border: 1px solid #E8E8E8;
   background: none;
 }
 @media screen and (max-width: 1024px) {
-  .container-fluid .son .v1 .card .overlay:hover {
+  .container-fluid .son111 .son .v1 .card .overlay:hover {
     border: 2px solid white;
     background: none;
     margin-left: 5%;
   }
 }
 @media screen and (max-width: 767px) {
-  .container-fluid .son .v1 .card .overlay:hover .overlay:hover {
+  .container-fluid .son111 .son .v1 .card .overlay:hover .overlay:hover {
     display: none;
   }
 }
-.container-fluid .son .v1 .v11 {
+.container-fluid .son111 .son .v1 .v11 {
   opacity: 0.6;
 }
 .container-fluid .hau {
